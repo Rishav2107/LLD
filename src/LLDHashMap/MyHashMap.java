@@ -49,7 +49,6 @@ public class MyHashMap<K,V> {
             this.value = value;
         }
     }
-
     public static void main(String[] args) {
         MyHashMap<Integer,String> myHashMap = new MyHashMap<>();
         myHashMap.put(1,"hey");
